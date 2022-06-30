@@ -1,0 +1,78 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{makeidx}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage[dvipsnames,svgnames,table]{xcolor}
+\usepackage{graphicx}%Agrega imagenes
+\graphicspath{ {imagenes/} }%Ruta de las imagenes a agregar
+\usepackage{float}
+\usepackage{epstopdf}
+\usepackage{ulem}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\author{Ana Karen Reyes Monterrosas}
+\title{}
+\usepackage[paperwidth=612pt,paperheight=792pt,top=70pt,right=85pt,bottom=70pt,left=85pt]{geometry}
+
+\makeatletter
+	\newenvironment{indentation}[3]%
+	{\par\setlength{\parindent}{#3}
+	\setlength{\leftmargin}{#1}       \setlength{\rightmargin}{#2}%
+	\advance\linewidth -\leftmargin       \advance\linewidth -\rightmargin%
+	\advance\@totalleftmargin\leftmargin  \@setpar{{\@@par}}%
+	\parshape 1\@totalleftmargin \linewidth\ignorespaces}{\par}%
+\makeatother 
+
+\begin{document}
+
+%PORTADA INICIO
+\begin{titlepage}
+	\begin{figure}[h!]
+		\centering
+		{\includegraphics[scale=.7]{uaemex.jpg}\par} \vspace{1cm}
+	\end{figure}
+\begin{center}
+{\scshape\LARGE \textsc{\LARGE Universidad Autónoma del Estado de México}\par}\vspace{1.5cm} 
+\textsc{\Large Diplomado Superior en Desarrollo de Software Empresarial}\\[1cm] 
+\HRule \\[0.2cm] 
+{\Large \bfseries \ttitle\par}\vspace{0.1cm} 
+\HRule \\[0.4cm] 
+\Large {Diplomado que presenta:}\\
+\Large {{Ana Karen Reyes Monterrosas}{\authorname} }\\ 
+\bigskip\vspace{1cm}
+\Large{Módulo I}\\
+\Large{\textbf{Sistemas Distribuidos}}\\
+\bigskip\vspace{1cm}
+\Large{Docente:}\\
+\Large{{M. en C. Laura Yadira Dominguez Jalili}{\supname} }\\
+\vspace{2.5cm}
+\noindent
+\begin{tabular}[t]{@{}l} 
+  Texcoco, Estado de México.
+\end{tabular}
+\hfill
+\begin{tabular}[t]{l@{}}
+   Junio del 2021
+\end{tabular}
+ \vfill
+\end{center}
+\end{titlepage}
+%PORTADA FIN
+
+%INDICE INICIO
+{\raggedright
+{\LARGE Contenido}
+}
+\tableofcontents
+
+\printbibliography
+
+%INDICE FIN
+
+\include{Clases/1.Diapositivas/ApuntesDiapositivas}
+\include{Clases/2.Codigos/ApuntesCodigos}
+
+\end{document}

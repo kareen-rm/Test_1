@@ -1,0 +1,58 @@
+\babel@toc {spanish}{}
+\contentsline {subsection}{\numberline {0.1}Introducción general de los Sistemas Distribuidos}{3}{subsection.0.1}%
+\contentsline {section}{\numberline {1}Unidad I. Introducción a la computación distribuida.}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Características}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Tipos de modelos de sistemas}{5}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}\textbf {SISD}}{7}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}\textbf {SIMD}}{8}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}\textbf {MISD}}{9}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}\textbf {MIMD}}{9}{subsubsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.3}Actividad 1 en clase}{10}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Sistemas de Memoria Compartida}{11}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Sistemas de Memoria Distribuida.}{11}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Sistemas con memoria compartida}{11}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Sistemas con memoria distribuida}{12}{subsubsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.6}Taxonomía de los sistemas distribuidos}{12}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Redes.}{13}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Actividad 2 en clase.}{13}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Principales componentes de una red}{13}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Modos de operación y conmutación}{14}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Conmutación}{14}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Topología de redes}{15}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}El procesamiento paralelo}{16}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Confiabidilad}{16}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Velocidad}{17}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Ejemplo real, alusión a paralelismo}{17}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Configuraciones Típicas de multiprocesamiento}{18}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Sincronización}{19}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}Actividad 3 en clase.}{22}{subsection.2.12}%
+\contentsline {section}{\numberline {3}Modelo OSI}{23}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Capa 1 \textbf {Física}}{23}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Capa 2 \textbf {Enlace de datos}}{23}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Capa 3\textbf { Red}}{23}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Capa 4 \textbf {Transporte}}{23}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Capa 5. \textbf {Sesión}}{23}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Capa 6. \textbf {Presentación}}{24}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Capa 7. \textbf {Aplicación}}{24}{subsection.3.7}%
+\contentsline {section}{\numberline {4}\textbf {Modelo TCP / IP}}{25}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Actividad 4 en clase.}{26}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Protocolos y paquetes}{26}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Paradigmas de cómputo y cómo se integran en los modelos arquitectónicos de los sistemas distribuidos.}{26}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}\textbf {Modelo Cliente - Servidor}}{26}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}\textbf {Peep-to-peer}}{27}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}\textbf {Grid}}{28}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}\textbf {Proxy }}{29}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.5}\textbf {Clúster}}{30}{subsubsection.4.3.5}%
+\contentsline {subsubsection}{\numberline {4.3.6}\textbf {Applets}}{30}{subsubsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.4}Arquitectura de capas}{31}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Sistema distribuido se constituye por:}{32}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Middleware}{32}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Corba}{34}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Clases prácticas}{35}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Actividad 5 en clase}{35}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Actividad 6 en clase}{40}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Actividad 7 en clase}{47}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Actividad 8 en clase}{49}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Actividad 9 (Tarea)}{55}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Actividad 10 en clase}{58}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Actividad 11 en clase}{62}{subsection.5.7}%
