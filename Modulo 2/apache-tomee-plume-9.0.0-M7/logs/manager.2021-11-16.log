@@ -1,0 +1,290 @@
+16-Nov-2021 00:02:02.592 INFO [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:02:02.596 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:02:02.604 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 00:02:03.131 INFO [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context7603445912980471490.xml'
+16-Nov-2021 00:04:33.582 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:04:33.584 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:04:33.591 INFO [http-nio-8080-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 00:04:33.609 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context8407572982648481305.xml'
+16-Nov-2021 00:13:52.038 INFO [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:13:52.041 INFO [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:13:52.049 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 00:13:52.054 INFO [http-nio-8080-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context895581463115559779.xml'
+16-Nov-2021 00:14:17.992 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 00:14:17.992 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 00:14:17.993 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:14:17.996 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:14:18.013 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 00:14:27.814 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:14:27.817 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:14:44.422 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 00:14:44.422 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 00:14:44.423 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:14:44.426 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:14:44.436 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context6996953897529557275.xml'
+16-Nov-2021 00:14:44.576 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'
+16-Nov-2021 00:18:22.681 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:18:22.685 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:18:22.693 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 00:18:23.247 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context2328376301810289386.xml'
+16-Nov-2021 00:21:01.404 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:21:01.408 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:21:01.414 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 00:21:01.432 INFO [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context8787842049069635166.xml'
+16-Nov-2021 00:25:01.042 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:25:01.046 INFO [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:25:01.055 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 00:25:01.061 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context1125989932766633459.xml'
+16-Nov-2021 00:25:34.714 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 00:25:34.715 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 00:25:34.715 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:25:34.720 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:25:34.729 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context6321811825034208808.xml'
+16-Nov-2021 00:25:34.878 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'
+16-Nov-2021 00:27:59.908 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:27:59.912 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:27:59.919 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 00:27:59.951 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context7695715079113065147.xml'
+16-Nov-2021 00:28:11.453 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 00:28:11.453 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 00:28:11.454 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:28:11.459 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:28:11.468 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context5759300011014245249.xml'
+16-Nov-2021 00:28:11.684 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'
+16-Nov-2021 00:35:03.110 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:35:03.117 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 00:36:08.083 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:36:08.086 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:36:08.095 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context5561170459061480751.xml'
+16-Nov-2021 00:36:21.615 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:36:21.618 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:36:21.624 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 00:36:21.641 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context8713584865885028808.xml'
+16-Nov-2021 00:36:47.006 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 00:36:47.006 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 00:36:47.006 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:36:47.010 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:36:47.028 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 00:36:47.064 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context6859897813827792679.xml'
+16-Nov-2021 00:37:02.703 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 00:37:02.704 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 00:37:02.704 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:37:02.708 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:37:02.717 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context4278474754570317131.xml'
+16-Nov-2021 00:37:02.847 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'
+16-Nov-2021 00:37:26.917 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:37:26.921 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:37:26.928 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 00:37:26.961 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context613014722860196364.xml'
+16-Nov-2021 00:37:51.107 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 00:37:51.107 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 00:37:51.107 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:37:51.112 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:37:51.123 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context8703517552867799008.xml'
+16-Nov-2021 00:37:51.283 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'
+16-Nov-2021 00:38:05.043 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:38:05.047 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 00:40:22.647 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 00:40:22.647 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 00:40:22.647 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:40:22.652 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:40:22.663 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context1624530863132087666.xml'
+16-Nov-2021 00:40:22.919 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'
+16-Nov-2021 00:41:57.500 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:41:57.503 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:41:57.512 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 00:41:57.549 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context8200275560847344942.xml'
+16-Nov-2021 00:42:18.854 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:42:18.857 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:42:53.520 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:42:53.525 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:42:53.534 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 00:42:53.540 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context4644972635609208601.xml'
+16-Nov-2021 00:43:18.729 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 00:43:18.729 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 00:43:18.729 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:43:18.732 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:43:18.741 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context2033769323272399925.xml'
+16-Nov-2021 00:43:18.885 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'
+16-Nov-2021 00:43:47.983 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:43:47.989 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 00:44:29.045 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 00:44:29.046 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 00:44:29.046 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:44:29.050 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 00:44:29.061 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context1218485782715890624.xml'
+16-Nov-2021 00:44:29.250 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'
+16-Nov-2021 00:45:15.206 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 01:06:37.689 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 01:06:37.689 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 01:06:37.689 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 01:06:37.695 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 01:09:10.520 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 01:09:10.520 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 01:09:10.521 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 01:09:10.526 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 01:09:10.537 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context2790490914771355889.xml'
+16-Nov-2021 01:09:10.711 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'
+16-Nov-2021 01:11:14.683 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 01:11:30.707 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 01:11:30.713 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 01:11:33.475 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 01:11:33.478 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 01:11:33.493 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 01:11:33.493 SEVERE [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: Error reloading [/Estetica]
+	java.lang.IllegalStateException: Context with name [/Estetica] has not yet been started
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3738)
+		at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1125)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:367)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:668)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:378)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:56)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Nov-2021 01:11:44.763 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 01:11:44.763 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 01:11:44.763 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 01:11:44.768 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 01:11:44.777 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context5847674036533167031.xml'
+16-Nov-2021 01:11:44.921 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'
+16-Nov-2021 01:22:08.217 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 01:25:39.434 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 01:25:39.434 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 01:25:39.435 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 01:25:39.440 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 01:25:39.465 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/Estetica'
+16-Nov-2021 01:25:39.591 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'
+16-Nov-2021 02:15:11.007 INFO [http-nio-8080-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:15:11.010 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:23:48.007 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:23:52.654 INFO [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:23:52.661 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 02:24:07.778 INFO [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:24:07.784 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 02:24:11.305 INFO [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:24:11.312 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 02:24:23.411 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 02:24:23.412 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 02:24:23.413 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:24:23.418 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:24:23.437 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 02:41:55.209 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:41:55.216 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 02:42:06.447 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 02:42:06.447 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 02:42:06.448 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:42:06.459 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:42:06.483 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 02:43:49.029 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:43:49.036 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 02:44:22.945 INFO [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:47:53.733 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 02:47:53.733 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 02:47:53.734 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:47:53.739 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:47:53.751 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context4455593431870184642.xml'
+16-Nov-2021 02:47:53.918 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'
+16-Nov-2021 02:48:11.312 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:48:11.317 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 02:50:17.903 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:50:17.907 INFO [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:50:17.915 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context5707700465973645026.xml'
+16-Nov-2021 02:50:18.101 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'
+16-Nov-2021 02:53:26.247 INFO [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:53:26.255 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 02:53:26.491 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:53:26.496 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 02:55:26.759 INFO [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:55:26.766 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 02:57:46.589 INFO [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:57:46.596 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 02:59:53.919 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:59:53.922 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 02:59:53.938 INFO [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 03:04:22.596 INFO [http-nio-8080-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:04:22.601 INFO [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 03:06:09.388 INFO [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:07:51.709 INFO [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:07:54.523 INFO [http-nio-8080-exec-47] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:07:54.529 INFO [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 03:08:10.636 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 03:08:10.636 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 03:08:10.638 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:08:10.642 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:08:10.658 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 03:08:27.884 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:08:27.886 INFO [http-nio-8080-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:08:56.413 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:08:56.416 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:09:48.670 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:09:48.676 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 03:11:07.860 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:11:07.865 INFO [http-nio-8080-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 03:11:13.595 INFO [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:11:13.600 INFO [http-nio-8080-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 03:11:42.249 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 03:11:42.249 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 03:11:42.251 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:11:42.255 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:11:42.273 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 03:12:11.941 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:12:29.169 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 03:12:29.170 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 03:12:29.172 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:12:29.178 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:12:44.123 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:12:44.129 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 03:14:11.998 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:19:24.599 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:19:55.545 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:19:55.548 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:19:55.559 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context707386220835378743.xml'
+16-Nov-2021 03:19:55.752 INFO [http-nio-8080-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'
+16-Nov-2021 03:20:19.224 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:20:19.227 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:21:04.182 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:21:04.189 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 03:21:34.696 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 03:21:34.696 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 03:21:34.697 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:21:34.702 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:21:34.719 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 03:25:02.729 INFO [http-nio-8080-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:25:02.733 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 03:25:15.530 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Nov-2021 03:25:15.530 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Nov-2021 03:25:15.530 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:25:15.535 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:25:15.553 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Estetica'
+16-Nov-2021 03:31:10.169 INFO [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 03:31:10.173 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Estetica'
+16-Nov-2021 04:18:59.079 INFO [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 04:18:59.083 INFO [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Nov-2021 04:18:59.093 INFO [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/KAREN~1.REY/AppData/Local/Temp/context2475492957338521931.xml'
+16-Nov-2021 04:18:59.304 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Estetica'

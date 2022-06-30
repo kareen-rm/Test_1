@@ -1,0 +1,417 @@
+12-Nov-2021 18:31:11.550 INFO [http-nio-8080-exec-14] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUDUsuarios.xml]
+12-Nov-2021 18:31:11.558 WARNING [http-nio-8080-exec-14] sun.reflect.NativeMethodAccessorImpl.invoke The path attribute with value [/CRUDUsuarios] in deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUDUsuarios.xml] has been ignored
+12-Nov-2021 18:31:11.562 INFO [http-nio-8080-exec-14] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /CRUDUsuarios
+12-Nov-2021 18:31:11.714 INFO [http-nio-8080-exec-14] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\12-CRUDUsuarios
+12-Nov-2021 18:31:11.773 INFO [http-nio-8080-exec-14] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\12-CRUDUsuarios" loaded.
+12-Nov-2021 18:31:11.774 INFO [http-nio-8080-exec-14] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\12-CRUDUsuarios
+12-Nov-2021 18:31:11.827 INFO [http-nio-8080-exec-14] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\12-CRUDUsuarios\META-INF\context.xml
+12-Nov-2021 18:31:11.829 INFO [http-nio-8080-exec-14] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\12-CRUDUsuarios)
+12-Nov-2021 18:31:12.001 INFO [http-nio-8080-exec-14] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:31:12.029 INFO [http-nio-8080-exec-14] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUDUsuarios.xml] has finished in [480] ms
+12-Nov-2021 18:31:12.037 INFO [http-nio-8080-exec-13] sun.reflect.DelegatingMethodAccessorImpl.invoke The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CRUDUsuarios]] after start() had already been called. The second call will be ignored.
+12-Nov-2021 18:38:21.062 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/CRUDUsuarios] has started
+12-Nov-2021 18:38:21.066 WARNING [http-nio-8080-exec-13] com.sun.faces.config.ConfigureListener.contextDestroyed Unexpected state during contextDestroyed: no ConfigManager instance in current ServletContext but one is expected to exist.
+12-Nov-2021 18:38:21.079 INFO [http-nio-8080-exec-13] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\12-CRUDUsuarios
+12-Nov-2021 18:38:21.232 WARNING [http-nio-8080-exec-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [CRUDUsuarios] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+12-Nov-2021 18:38:21.232 WARNING [http-nio-8080-exec-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [CRUDUsuarios] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+12-Nov-2021 18:38:21.285 INFO [http-nio-8080-exec-13] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\13-CRUDUsuarios
+12-Nov-2021 18:38:21.316 INFO [http-nio-8080-exec-13] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\13-CRUDUsuarios" loaded.
+12-Nov-2021 18:38:21.317 INFO [http-nio-8080-exec-13] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\13-CRUDUsuarios
+12-Nov-2021 18:38:21.336 INFO [http-nio-8080-exec-13] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\13-CRUDUsuarios\META-INF\context.xml
+12-Nov-2021 18:38:21.337 INFO [http-nio-8080-exec-13] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\13-CRUDUsuarios)
+12-Nov-2021 18:38:21.448 INFO [http-nio-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:21.471 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/CRUDUsuarios] is completed
+12-Nov-2021 18:38:21.809 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1421)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1039)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+12-Nov-2021 18:38:27.372 INFO [main] org.apache.openejb.persistence.PersistenceBootstrap.getDefaultProvider Default JPA Provider changed to org.eclipse.persistence.jpa.PersistenceProvider specified by jar:file:/C:/Users/karen.reyes/Documents/Personal/Diplomado/Modulo%202/apache-tomee-plume-9.0.0-M7/lib/openejb-core-eclipselink-8.0.7.jar!/META-INF/org.apache.openejb.persistence.PersistenceBootstrap.provider
+12-Nov-2021 18:38:27.533 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+12-Nov-2021 18:38:27.534 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+12-Nov-2021 18:38:28.016 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+12-Nov-2021 18:38:28.020 WARNING [main] com.sun.faces.config.ConfigureListener.contextDestroyed Unexpected state during contextDestroyed: no ConfigManager instance in current ServletContext but one is expected to exist.
+12-Nov-2021 18:38:28.038 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\0-CRUD-MVC-JAVA
+12-Nov-2021 18:38:28.184 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [CRUD-MVC-JAVA] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:933)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1058)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+12-Nov-2021 18:38:28.198 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\1-CRUDProducto
+12-Nov-2021 18:38:28.325 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [CRUDProducto] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+ java.io.File.isFile(File.java:891)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:69)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:101)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:105)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:87)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:939)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1058)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+12-Nov-2021 18:38:28.338 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\2-CRUDProductosG1
+12-Nov-2021 18:38:28.460 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\3-LoginSPP
+12-Nov-2021 18:38:28.572 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LoginSPP] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+ java.io.File.isFile(File.java:891)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:69)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:101)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:105)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:87)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:939)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1058)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+12-Nov-2021 18:38:28.585 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\4-MVCArchivoG1
+12-Nov-2021 18:38:28.698 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\5-Practica3
+12-Nov-2021 18:38:28.793 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\11-ProyectoLogin
+12-Nov-2021 18:38:28.891 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ProyectoLogin] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+12-Nov-2021 18:38:28.891 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ProyectoLogin] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+ java.io.File.exists(File.java:828)
+ sun.misc.URLClassPath$FileLoader.getResource(URLClassPath.java:1379)
+ sun.misc.URLClassPath$FileLoader.findResource(URLClassPath.java:1346)
+ sun.misc.URLClassPath.findResource(URLClassPath.java:225)
+ java.net.URLClassLoader$2.run(URLClassLoader.java:572)
+ java.net.URLClassLoader$2.run(URLClassLoader.java:570)
+ java.security.AccessController.doPrivileged(Native Method)
+ java.net.URLClassLoader.findResource(URLClassLoader.java:569)
+ java.lang.ClassLoader.getResource(ClassLoader.java:1089)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1067)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+12-Nov-2021 18:38:28.904 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\7-RegistroProductos
+12-Nov-2021 18:38:29.001 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\8-Servlet1M7
+12-Nov-2021 18:38:29.166 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\9-docs
+12-Nov-2021 18:38:29.248 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\host-manager
+12-Nov-2021 18:38:29.313 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\manager
+12-Nov-2021 18:38:29.410 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\10-ROOT
+12-Nov-2021 18:38:29.500 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\13-CRUDUsuarios
+12-Nov-2021 18:38:29.571 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+12-Nov-2021 18:38:29.637 INFO [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+12-Nov-2021 18:38:29.676 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+12-Nov-2021 18:38:33.101 INFO [main] org.apache.openejb.persistence.PersistenceBootstrap.getDefaultProvider Default JPA Provider changed to org.eclipse.persistence.jpa.PersistenceProvider specified by jar:file:/C:/Users/karen.reyes/Documents/Personal/Diplomado/Modulo%202/apache-tomee-plume-9.0.0-M7/lib/openejb-core-eclipselink-8.0.7.jar!/META-INF/org.apache.openejb.persistence.PersistenceBootstrap.provider
+12-Nov-2021 18:38:33.310 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat (TomEE)/10.0.4 (9.0.0-M7)
+12-Nov-2021 18:38:33.310 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Mar 5 2021 11:07:15 UTC
+12-Nov-2021 18:38:33.310 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version number: 10.0.4.0
+12-Nov-2021 18:38:33.310 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 10
+12-Nov-2021 18:38:33.310 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            10.0
+12-Nov-2021 18:38:33.310 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+12-Nov-2021 18:38:33.310 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk1.8.0_291\jre
+12-Nov-2021 18:38:33.310 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.8.0_291-b10
+12-Nov-2021 18:38:33.310 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+12-Nov-2021 18:38:33.310 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7
+12-Nov-2021 18:38:33.310 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7
+12-Nov-2021 18:38:33.311 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\logging.properties
+12-Nov-2021 18:38:33.311 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Nov-2021 18:38:33.311 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\lib\openejb-javaagent.jar
+12-Nov-2021 18:38:33.311 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Nov-2021 18:38:33.311 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Nov-2021 18:38:33.311 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dignore.endorsed.dirs=
+12-Nov-2021 18:38:33.312 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7
+12-Nov-2021 18:38:33.312 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7
+12-Nov-2021 18:38:33.312 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp
+12-Nov-2021 18:38:33.318 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_291\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\PuTTY\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\ant\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\LINGO64_19\;C:\Program Files\Java\jdk-1.8.0_291;C:\Program Files\nodejs\;C:\Program Files (x86)\BaseX\bin;C:\Program Files (x86)\dotnet\;C:\Users\karen.reyes\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\karen.reyes\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\karen.reyes\.dotnet\tools;C:\Program Files\Java\jdk-1.8.0_291;;C:\Users\karen.reyes\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\karen.reyes\AppData\Roaming\npm;.]
+12-Nov-2021 18:38:34.724 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+12-Nov-2021 18:38:34.943 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+12-Nov-2021 18:38:35.017 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+12-Nov-2021 18:38:35.017 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+12-Nov-2021 18:38:35.017 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Fri Nov 12 18:38:35 CST 2021
+12-Nov-2021 18:38:35.017 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2021 (C) Apache TomEE Project, All Rights Reserved.
+12-Nov-2021 18:38:35.017 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 9.0.0-M7
+12-Nov-2021 18:38:35.017 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20210503
+12-Nov-2021 18:38:35.017 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 02:39
+12-Nov-2021 18:38:35.017 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+12-Nov-2021 18:38:35.017 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7
+12-Nov-2021 18:38:35.018 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7
+12-Nov-2021 18:38:35.019 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@67d48005
+12-Nov-2021 18:38:35.022 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+12-Nov-2021 18:38:35.047 WARNING [main] org.apache.openejb.assembler.classic.Assembler.initBValFiltering Can't setup BVal filtering, this can impact negatively performances: org/apache/bval/cdi/BValExtension$AnnotatedTypeFilter
+12-Nov-2021 18:38:35.050 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\tomee.xml'
+12-Nov-2021 18:38:35.085 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+12-Nov-2021 18:38:35.088 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+12-Nov-2021 18:38:35.091 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+12-Nov-2021 18:38:35.091 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+12-Nov-2021 18:38:35.167 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+12-Nov-2021 18:38:35.227 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+12-Nov-2021 18:38:35.391 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+12-Nov-2021 18:38:35.416 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+12-Nov-2021 18:38:35.416 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+12-Nov-2021 18:38:35.416 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+12-Nov-2021 18:38:35.416 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+12-Nov-2021 18:38:35.416 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [2298] milliseconds
+12-Nov-2021 18:38:35.437 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+12-Nov-2021 18:38:35.438 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+12-Nov-2021 18:38:35.446 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+12-Nov-2021 18:38:35.446 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat (TomEE)/10.0.4 (9.0.0-M7)]
+12-Nov-2021 18:38:35.454 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUD-MVC-JAVA.xml]
+12-Nov-2021 18:38:35.464 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke The path attribute with value [/CRUD-MVC-JAVA] in deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUD-MVC-JAVA.xml] has been ignored
+12-Nov-2021 18:38:35.468 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /CRUD-MVC-JAVA
+12-Nov-2021 18:38:35.746 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\0-CRUD-MVC-JAVA
+12-Nov-2021 18:38:35.841 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+12-Nov-2021 18:38:35.842 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean CRUD-MVC-JAVA.Comp392904516: Container(type=MANAGED, id=Default Managed Container)
+12-Nov-2021 18:38:35.842 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+12-Nov-2021 18:38:35.853 INFO [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp for stateful session passivation
+12-Nov-2021 18:38:35.892 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\0-CRUD-MVC-JAVA" loaded.
+12-Nov-2021 18:38:36.684 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\0-CRUD-MVC-JAVA
+12-Nov-2021 18:38:36.792 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 7.0.0.Final
+12-Nov-2021 18:38:37.055 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\0-CRUD-MVC-JAVA\META-INF\context.xml
+12-Nov-2021 18:38:37.058 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\0-CRUD-MVC-JAVA)
+12-Nov-2021 18:38:37.446 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:37.599 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUD-MVC-JAVA.xml] has finished in [2,144] ms
+12-Nov-2021 18:38:37.599 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUDProducto.xml]
+12-Nov-2021 18:38:37.607 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke The path attribute with value [/CRUDProducto] in deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUDProducto.xml] has been ignored
+12-Nov-2021 18:38:37.608 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /CRUDProducto
+12-Nov-2021 18:38:37.921 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\1-CRUDProducto
+12-Nov-2021 18:38:37.952 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\1-CRUDProducto" loaded.
+12-Nov-2021 18:38:37.953 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\1-CRUDProducto
+12-Nov-2021 18:38:37.973 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\1-CRUDProducto\META-INF\context.xml
+12-Nov-2021 18:38:37.973 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\1-CRUDProducto)
+12-Nov-2021 18:38:38.109 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:38.140 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUDProducto.xml] has finished in [540] ms
+12-Nov-2021 18:38:38.140 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUDProductosG1.xml]
+12-Nov-2021 18:38:38.148 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke The path attribute with value [/CRUDProductosG1] in deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUDProductosG1.xml] has been ignored
+12-Nov-2021 18:38:38.149 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /CRUDProductosG1
+12-Nov-2021 18:38:38.275 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\2-CRUDProductosG1
+12-Nov-2021 18:38:38.300 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\2-CRUDProductosG1" loaded.
+12-Nov-2021 18:38:38.301 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\2-CRUDProductosG1
+12-Nov-2021 18:38:38.327 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\2-CRUDProductosG1\META-INF\context.xml
+12-Nov-2021 18:38:38.327 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\2-CRUDProductosG1)
+12-Nov-2021 18:38:38.446 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:38.473 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUDProductosG1.xml] has finished in [331] ms
+12-Nov-2021 18:38:38.473 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUDUsuarios.xml]
+12-Nov-2021 18:38:38.473 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke The path attribute with value [/CRUDUsuarios] in deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUDUsuarios.xml] has been ignored
+12-Nov-2021 18:38:38.475 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /CRUDUsuarios
+12-Nov-2021 18:38:38.550 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\3-CRUDUsuarios
+12-Nov-2021 18:38:38.592 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\3-CRUDUsuarios" loaded.
+12-Nov-2021 18:38:38.593 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\3-CRUDUsuarios
+12-Nov-2021 18:38:38.620 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\3-CRUDUsuarios\META-INF\context.xml
+12-Nov-2021 18:38:38.621 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\3-CRUDUsuarios)
+12-Nov-2021 18:38:38.746 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:38.770 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\CRUDUsuarios.xml] has finished in [297] ms
+12-Nov-2021 18:38:38.770 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\LoginSPP.xml]
+12-Nov-2021 18:38:38.777 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke The path attribute with value [/LoginSPP] in deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\LoginSPP.xml] has been ignored
+12-Nov-2021 18:38:38.778 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /LoginSPP
+12-Nov-2021 18:38:38.937 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\4-LoginSPP
+12-Nov-2021 18:38:38.958 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\4-LoginSPP" loaded.
+12-Nov-2021 18:38:38.958 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\4-LoginSPP
+12-Nov-2021 18:38:38.977 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\4-LoginSPP\META-INF\context.xml
+12-Nov-2021 18:38:38.977 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\4-LoginSPP)
+12-Nov-2021 18:38:39.080 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:39.101 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\LoginSPP.xml] has finished in [331] ms
+12-Nov-2021 18:38:39.101 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\MVCArchivoG1.xml]
+12-Nov-2021 18:38:39.110 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke The path attribute with value [/MVCArchivoG1] in deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\MVCArchivoG1.xml] has been ignored
+12-Nov-2021 18:38:39.111 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /MVCArchivoG1
+12-Nov-2021 18:38:39.241 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\5-MVCArchivoG1
+12-Nov-2021 18:38:39.270 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\5-MVCArchivoG1" loaded.
+12-Nov-2021 18:38:39.271 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\5-MVCArchivoG1
+12-Nov-2021 18:38:39.305 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\5-MVCArchivoG1\META-INF\context.xml
+12-Nov-2021 18:38:39.306 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\5-MVCArchivoG1)
+12-Nov-2021 18:38:39.444 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:39.472 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\MVCArchivoG1.xml] has finished in [371] ms
+12-Nov-2021 18:38:39.472 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\Practica3.xml]
+12-Nov-2021 18:38:39.479 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke The path attribute with value [/Practica3] in deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\Practica3.xml] has been ignored
+12-Nov-2021 18:38:39.482 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /Practica3
+12-Nov-2021 18:38:39.618 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\6-Practica3
+12-Nov-2021 18:38:39.647 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\6-Practica3" loaded.
+12-Nov-2021 18:38:39.647 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\6-Practica3
+12-Nov-2021 18:38:39.666 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\6-Practica3\META-INF\context.xml
+12-Nov-2021 18:38:39.667 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\6-Practica3)
+12-Nov-2021 18:38:39.794 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:39.823 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\Practica3.xml] has finished in [351] ms
+12-Nov-2021 18:38:39.825 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\ProyectoLogin.xml]
+12-Nov-2021 18:38:39.832 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke The path attribute with value [/ProyectoLogin] in deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\ProyectoLogin.xml] has been ignored
+12-Nov-2021 18:38:39.833 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /ProyectoLogin
+12-Nov-2021 18:38:39.997 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\7-ProyectoLogin
+12-Nov-2021 18:38:40.022 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\7-ProyectoLogin" loaded.
+12-Nov-2021 18:38:40.022 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\7-ProyectoLogin
+12-Nov-2021 18:38:40.047 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\7-ProyectoLogin\META-INF\context.xml
+12-Nov-2021 18:38:40.047 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\7-ProyectoLogin)
+12-Nov-2021 18:38:40.183 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:40.209 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\ProyectoLogin.xml] has finished in [384] ms
+12-Nov-2021 18:38:40.209 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\RegistroProductos.xml]
+12-Nov-2021 18:38:40.217 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke The path attribute with value [/RegistroProductos] in deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\RegistroProductos.xml] has been ignored
+12-Nov-2021 18:38:40.219 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /RegistroProductos
+12-Nov-2021 18:38:40.347 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\8-RegistroProductos
+12-Nov-2021 18:38:40.377 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\8-RegistroProductos" loaded.
+12-Nov-2021 18:38:40.378 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\8-RegistroProductos
+12-Nov-2021 18:38:40.401 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\8-RegistroProductos\META-INF\context.xml
+12-Nov-2021 18:38:40.401 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\8-RegistroProductos)
+12-Nov-2021 18:38:40.512 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:40.536 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\RegistroProductos.xml] has finished in [326] ms
+12-Nov-2021 18:38:40.536 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\Servlet1M7.xml]
+12-Nov-2021 18:38:40.542 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke The path attribute with value [/Servlet1M7] in deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\Servlet1M7.xml] has been ignored
+12-Nov-2021 18:38:40.543 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /Servlet1M7
+12-Nov-2021 18:38:40.634 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\9-Servlet1M7
+12-Nov-2021 18:38:40.656 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\9-Servlet1M7" loaded.
+12-Nov-2021 18:38:40.657 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\9-Servlet1M7
+12-Nov-2021 18:38:40.678 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\9-Servlet1M7\META-INF\context.xml
+12-Nov-2021 18:38:40.678 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\9-Servlet1M7)
+12-Nov-2021 18:38:40.763 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:40.783 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of deployment descriptor [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\conf\Catalina\localhost\Servlet1M7.xml] has finished in [246] ms
+12-Nov-2021 18:38:40.783 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\docs]
+12-Nov-2021 18:38:40.784 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+12-Nov-2021 18:38:42.197 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\10-docs
+12-Nov-2021 18:38:42.201 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\10-docs" loaded.
+12-Nov-2021 18:38:42.201 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\10-docs
+12-Nov-2021 18:38:42.213 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\10-docs)
+12-Nov-2021 18:38:42.272 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:42.287 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\docs] has finished in [1,504] ms
+12-Nov-2021 18:38:42.287 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\host-manager]
+12-Nov-2021 18:38:42.296 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+12-Nov-2021 18:38:42.339 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\host-manager
+12-Nov-2021 18:38:42.344 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\host-manager" loaded.
+12-Nov-2021 18:38:42.345 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\host-manager
+12-Nov-2021 18:38:42.355 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\host-manager\META-INF\context.xml
+12-Nov-2021 18:38:42.356 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\host-manager)
+12-Nov-2021 18:38:42.432 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:42.451 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\host-manager] has finished in [164] ms
+12-Nov-2021 18:38:42.451 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\manager]
+12-Nov-2021 18:38:42.457 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+12-Nov-2021 18:38:42.487 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\manager
+12-Nov-2021 18:38:42.494 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\manager" loaded.
+12-Nov-2021 18:38:42.494 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\manager
+12-Nov-2021 18:38:42.505 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\manager\META-INF\context.xml
+12-Nov-2021 18:38:42.506 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\manager)
+12-Nov-2021 18:38:42.580 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:42.600 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\manager] has finished in [149] ms
+12-Nov-2021 18:38:42.600 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\ROOT]
+12-Nov-2021 18:38:42.601 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+12-Nov-2021 18:38:42.696 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\11-ROOT
+12-Nov-2021 18:38:42.699 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\11-ROOT" loaded.
+12-Nov-2021 18:38:42.699 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\11-ROOT
+12-Nov-2021 18:38:42.711 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\11-ROOT)
+12-Nov-2021 18:38:42.776 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:42.796 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\ROOT] has finished in [195] ms
+12-Nov-2021 18:38:42.800 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+12-Nov-2021 18:38:42.814 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [7398] milliseconds
+12-Nov-2021 18:38:48.405 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/CRUDUsuarios] has started
+12-Nov-2021 18:38:48.422 WARNING [http-nio-8080-exec-3] com.sun.faces.config.ConfigureListener.contextDestroyed Unexpected state during contextDestroyed: no ConfigManager instance in current ServletContext but one is expected to exist.
+12-Nov-2021 18:38:48.445 INFO [http-nio-8080-exec-3] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\3-CRUDUsuarios
+12-Nov-2021 18:38:48.648 INFO [http-nio-8080-exec-3] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\12-CRUDUsuarios
+12-Nov-2021 18:38:48.680 INFO [http-nio-8080-exec-3] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\12-CRUDUsuarios" loaded.
+12-Nov-2021 18:38:48.681 INFO [http-nio-8080-exec-3] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\12-CRUDUsuarios
+12-Nov-2021 18:38:48.698 INFO [http-nio-8080-exec-3] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\12-CRUDUsuarios\META-INF\context.xml
+12-Nov-2021 18:38:48.698 INFO [http-nio-8080-exec-3] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\12-CRUDUsuarios)
+12-Nov-2021 18:38:48.809 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2021 18:38:48.829 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/CRUDUsuarios] is completed
+12-Nov-2021 19:47:18.373 INFO [main] org.apache.openejb.persistence.PersistenceBootstrap.getDefaultProvider Default JPA Provider changed to org.eclipse.persistence.jpa.PersistenceProvider specified by jar:file:/C:/Users/karen.reyes/Documents/Personal/Diplomado/Modulo%202/apache-tomee-plume-9.0.0-M7/lib/openejb-core-eclipselink-8.0.7.jar!/META-INF/org.apache.openejb.persistence.PersistenceBootstrap.provider
+12-Nov-2021 19:47:18.471 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+12-Nov-2021 19:47:18.473 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+12-Nov-2021 19:47:18.828 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+12-Nov-2021 19:47:18.831 WARNING [main] com.sun.faces.config.ConfigureListener.contextDestroyed Unexpected state during contextDestroyed: no ConfigManager instance in current ServletContext but one is expected to exist.
+12-Nov-2021 19:47:18.842 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\0-CRUD-MVC-JAVA
+12-Nov-2021 19:47:18.993 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [CRUD-MVC-JAVA] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.WinNTFileSystem.canonicalize0(Native Method)
+ java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:428)
+ java.io.File.getCanonicalPath(File.java:624)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:94)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:101)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:105)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:87)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:939)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1058)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+12-Nov-2021 19:47:18.994 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [logging.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [logging.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1421)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:933)
+		at org.apache.catalina.loader.WebappClassLoaderBase.hasLoggingConfig(WebappClassLoaderBase.java:2726)
+		at org.apache.juli.ClassLoaderLogManager.readConfiguration(ClassLoaderLogManager.java:445)
+		at org.apache.juli.ClassLoaderLogManager.lambda$getClassLoaderInfo$2(ClassLoaderLogManager.java:419)
+		at java.security.AccessController.doPrivileged(Native Method)
+		at org.apache.juli.ClassLoaderLogManager.getClassLoaderInfo(ClassLoaderLogManager.java:417)
+		at org.apache.juli.ClassLoaderLogManager.getLogger(ClassLoaderLogManager.java:241)
+		at java.util.logging.LogManager.demandLogger(LogManager.java:551)
+		at java.util.logging.Logger.demandLogger(Logger.java:455)
+		at java.util.logging.Logger.getLogger(Logger.java:502)
+		at org.apache.tomee.jul.formatter.log.JULLogger.<init>(JULLogger.java:67)
+		at org.apache.tomee.jul.formatter.log.TomEELog.<init>(TomEELog.java:79)
+		at sun.reflect.GeneratedConstructorAccessor1.newInstance(Unknown Source)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at org.apache.juli.logging.LogFactory.getInstance(LogFactory.java:137)
+		at org.apache.juli.logging.LogFactory.getInstance(LogFactory.java:156)
+		at org.apache.juli.logging.LogFactory.getLog(LogFactory.java:211)
+		at org.apache.catalina.webresources.JarResourceRoot.<clinit>(JarResourceRoot.java:32)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:252)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+		at org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:105)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:87)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:939)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1058)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+12-Nov-2021 19:47:19.002 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\1-CRUDProducto
+12-Nov-2021 19:47:19.099 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [CRUDProducto] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+ java.io.File.isFile(File.java:891)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:69)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:101)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:105)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:87)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:939)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1058)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+12-Nov-2021 19:47:19.110 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\2-CRUDProductosG1
+12-Nov-2021 19:47:19.215 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\12-CRUDUsuarios
+12-Nov-2021 19:47:19.288 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [CRUDUsuarios] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+12-Nov-2021 19:47:19.289 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [CRUDUsuarios] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+12-Nov-2021 19:47:19.300 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\4-LoginSPP
+12-Nov-2021 19:47:19.382 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\5-MVCArchivoG1
+12-Nov-2021 19:47:19.458 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\6-Practica3
+12-Nov-2021 19:47:19.538 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\7-ProyectoLogin
+12-Nov-2021 19:47:19.615 INFO [1] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\8-RegistroProductos

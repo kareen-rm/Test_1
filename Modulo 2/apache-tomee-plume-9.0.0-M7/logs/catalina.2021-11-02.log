@@ -1,0 +1,16 @@
+02-Nov-2021 14:08:51.927 INFO [main] org.apache.openejb.persistence.PersistenceBootstrap.getDefaultProvider Default JPA Provider changed to org.eclipse.persistence.jpa.PersistenceProvider specified by jar:file:/C:/Users/karen.reyes/Documents/Personal/Diplomado/Modulo%202/apache-tomee-plume-9.0.0-M7/lib/openejb-core-eclipselink-8.0.7.jar!/META-INF/org.apache.openejb.persistence.PersistenceBootstrap.provider
+02-Nov-2021 14:08:52.084 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Nov-2021 14:08:52.089 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 14:08:52.698 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+02-Nov-2021 14:08:52.744 WARNING [main] com.sun.faces.config.ConfigureListener.contextDestroyed Unexpected state during contextDestroyed: no ConfigManager instance in current ServletContext but one is expected to exist.
+02-Nov-2021 14:08:52.793 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\0-MVCArchivoG1
+02-Nov-2021 14:08:52.991 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\1-Practica3
+02-Nov-2021 14:08:53.134 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\2-RegistroProductos
+02-Nov-2021 14:08:53.271 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\3-Servlet1M7
+02-Nov-2021 14:08:53.462 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\4-docs
+02-Nov-2021 14:08:53.543 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\host-manager
+02-Nov-2021 14:08:53.641 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\webapps\manager
+02-Nov-2021 14:08:53.746 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\temp\5-ROOT
+02-Nov-2021 14:08:53.811 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 14:08:53.872 INFO [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+02-Nov-2021 14:08:53.893 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]

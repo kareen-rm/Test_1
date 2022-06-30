@@ -1,0 +1,13 @@
+127.0.0.1 - - [03/Jul/2021:12:23:34 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [03/Jul/2021:12:23:34 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [03/Jul/2021:12:23:34 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [03/Jul/2021:12:23:34 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - tomee [03/Jul/2021:12:23:34 -0500] "GET /manager/text/list HTTP/1.1" 200 881
+127.0.0.1 - tomee [03/Jul/2021:12:23:34 -0500] "GET /manager/text/list HTTP/1.1" 200 881
+127.0.0.1 - tomee [03/Jul/2021:12:23:34 -0500] "GET /manager/text/undeploy?path=/Servlet HTTP/1.1" 200 67
+127.0.0.1 - tomee [03/Jul/2021:12:23:35 -0500] "GET /manager/text/deploy?config=file%3A%2FC%3A%2FUsers%2FKAREN%7E1.REY%2FAppData%2FLocal%2FTemp%2Fcontext5793912858734442114.xml&path=/Servlet HTTP/1.1" 200 65
+127.0.0.1 - tomee [03/Jul/2021:12:23:35 -0500] "GET /manager/text/start?path=/Servlet HTTP/1.1" 200 64
+0:0:0:0:0:0:0:1 - - [03/Jul/2021:12:23:35 -0500] "GET /Servlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/Jul/2021:12:23:35 -0500] "GET /Servlet/ HTTP/1.1" 200 833
+0:0:0:0:0:0:0:1 - - [03/Jul/2021:12:23:35 -0500] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [03/Jul/2021:12:23:50 -0500] "GET /Servlet/MyServlet?base=25&altura=9 HTTP/1.1" 200 241

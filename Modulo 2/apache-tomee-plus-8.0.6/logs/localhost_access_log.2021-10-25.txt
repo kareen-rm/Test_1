@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [25/Oct/2021:00:45:23 -0500] "GET / HTTP/1.1" 200 11387
+127.0.0.1 - - [25/Oct/2021:00:45:35 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [25/Oct/2021:00:45:35 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [25/Oct/2021:00:45:35 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -

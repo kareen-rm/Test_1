@@ -1,0 +1,1494 @@
+08-Nov-2021 00:37:19.926 SEVERE [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\work\Catalina\localhost\ProyectoLogin\org\apache\jsp\vistas\registroGuardado_jsp.java]
+Only a type can be imported. modeloDAO.Usuario resolves to a package
+
+An error occurred at line: [19] in the jsp file: [/vistas/registroGuardado.jsp]
+Usuario cannot be resolved to a type
+16:         <h2>Registro exitoso en la base de datos</h2>
+17:         <p>Se guardaron los siguientes datos:</p>
+18:         <% 
+19:             Usuario us = (Usuario)request.getAttribute("atribUser");;
+20:         %>
+21:         <table border = "1">
+22:             <tr>
+
+
+An error occurred at line: [19] in the jsp file: [/vistas/registroGuardado.jsp]
+Usuario cannot be resolved to a type
+16:         <h2>Registro exitoso en la base de datos</h2>
+17:         <p>Se guardaron los siguientes datos:</p>
+18:         <% 
+19:             Usuario us = (Usuario)request.getAttribute("atribUser");;
+20:         %>
+21:         <table border = "1">
+22:             <tr>
+
+
+An error occurred at line: [24] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+21:         <table border = "1">
+22:             <tr>
+23:                 <td>Cuenta:</td>
+24:                 <td><%=us.getCuenta();%></td>
+25:             </tr>
+26:             <tr>
+27:                 <td>Nombre:</td>
+
+
+An error occurred at line: [28] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+25:             </tr>
+26:             <tr>
+27:                 <td>Nombre:</td>
+28:                 <td><%=us.getNombre();%></td>
+29:             </tr>
+30:             <tr>
+31:                 <td>ContraseÃ±a:</td>
+
+
+An error occurred at line: [32] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+29:             </tr>
+30:             <tr>
+31:                 <td>ContraseÃ±a:</td>
+32:                 <td><%=us.getPass();%></td>
+33:             </tr>
+34:             <tr>
+35:                 <td>Mail:</td>
+
+
+An error occurred at line: [36] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+33:             </tr>
+34:             <tr>
+35:                 <td>Mail:</td>
+36:                 <td><%=us.getMail();%></td>
+37:             </tr>
+38:         </table>
+39:         <form method = "post" action ="index.jsp">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:482)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:692)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:439)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:366)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at controlador.LoginController.doGet(LoginController.java:128)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 00:37:19.926 SEVERE [http-nio-8080-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [LoginController] in context with path [/ProyectoLogin] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\work\Catalina\localhost\ProyectoLogin\org\apache\jsp\vistas\registroGuardado_jsp.java]
+Only a type can be imported. modeloDAO.Usuario resolves to a package
+
+An error occurred at line: [19] in the jsp file: [/vistas/registroGuardado.jsp]
+Usuario cannot be resolved to a type
+16:         <h2>Registro exitoso en la base de datos</h2>
+17:         <p>Se guardaron los siguientes datos:</p>
+18:         <% 
+19:             Usuario us = (Usuario)request.getAttribute("atribUser");;
+20:         %>
+21:         <table border = "1">
+22:             <tr>
+
+
+An error occurred at line: [19] in the jsp file: [/vistas/registroGuardado.jsp]
+Usuario cannot be resolved to a type
+16:         <h2>Registro exitoso en la base de datos</h2>
+17:         <p>Se guardaron los siguientes datos:</p>
+18:         <% 
+19:             Usuario us = (Usuario)request.getAttribute("atribUser");;
+20:         %>
+21:         <table border = "1">
+22:             <tr>
+
+
+An error occurred at line: [24] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+21:         <table border = "1">
+22:             <tr>
+23:                 <td>Cuenta:</td>
+24:                 <td><%=us.getCuenta();%></td>
+25:             </tr>
+26:             <tr>
+27:                 <td>Nombre:</td>
+
+
+An error occurred at line: [28] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+25:             </tr>
+26:             <tr>
+27:                 <td>Nombre:</td>
+28:                 <td><%=us.getNombre();%></td>
+29:             </tr>
+30:             <tr>
+31:                 <td>ContraseÃ±a:</td>
+
+
+An error occurred at line: [32] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+29:             </tr>
+30:             <tr>
+31:                 <td>ContraseÃ±a:</td>
+32:                 <td><%=us.getPass();%></td>
+33:             </tr>
+34:             <tr>
+35:                 <td>Mail:</td>
+
+
+An error occurred at line: [36] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+33:             </tr>
+34:             <tr>
+35:                 <td>Mail:</td>
+36:                 <td><%=us.getMail();%></td>
+37:             </tr>
+38:         </table>
+39:         <form method = "post" action ="index.jsp">
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\karen.reyes\Documents\Personal\Diplomado\Modulo 2\apache-tomee-plume-9.0.0-M7\work\Catalina\localhost\ProyectoLogin\org\apache\jsp\vistas\registroGuardado_jsp.java]
+Only a type can be imported. modeloDAO.Usuario resolves to a package
+
+An error occurred at line: [19] in the jsp file: [/vistas/registroGuardado.jsp]
+Usuario cannot be resolved to a type
+16:         <h2>Registro exitoso en la base de datos</h2>
+17:         <p>Se guardaron los siguientes datos:</p>
+18:         <% 
+19:             Usuario us = (Usuario)request.getAttribute("atribUser");;
+20:         %>
+21:         <table border = "1">
+22:             <tr>
+
+
+An error occurred at line: [19] in the jsp file: [/vistas/registroGuardado.jsp]
+Usuario cannot be resolved to a type
+16:         <h2>Registro exitoso en la base de datos</h2>
+17:         <p>Se guardaron los siguientes datos:</p>
+18:         <% 
+19:             Usuario us = (Usuario)request.getAttribute("atribUser");;
+20:         %>
+21:         <table border = "1">
+22:             <tr>
+
+
+An error occurred at line: [24] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+21:         <table border = "1">
+22:             <tr>
+23:                 <td>Cuenta:</td>
+24:                 <td><%=us.getCuenta();%></td>
+25:             </tr>
+26:             <tr>
+27:                 <td>Nombre:</td>
+
+
+An error occurred at line: [28] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+25:             </tr>
+26:             <tr>
+27:                 <td>Nombre:</td>
+28:                 <td><%=us.getNombre();%></td>
+29:             </tr>
+30:             <tr>
+31:                 <td>ContraseÃ±a:</td>
+
+
+An error occurred at line: [32] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+29:             </tr>
+30:             <tr>
+31:                 <td>ContraseÃ±a:</td>
+32:                 <td><%=us.getPass();%></td>
+33:             </tr>
+34:             <tr>
+35:                 <td>Mail:</td>
+
+
+An error occurred at line: [36] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+33:             </tr>
+34:             <tr>
+35:                 <td>Mail:</td>
+36:                 <td><%=us.getMail();%></td>
+37:             </tr>
+38:         </table>
+39:         <form method = "post" action ="index.jsp">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:482)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:692)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:439)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:366)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at controlador.LoginController.doGet(LoginController.java:128)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 00:40:49.035 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+21:         <table border = "1">
+22:             <tr>
+23:                 <td>Cuenta:</td>
+24:                 <td><%=us.getCuenta();%></td>
+25:             </tr>
+26:             <tr>
+27:                 <td>Nombre:</td>
+
+
+An error occurred at line: [28] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+25:             </tr>
+26:             <tr>
+27:                 <td>Nombre:</td>
+28:                 <td><%=us.getNombre();%></td>
+29:             </tr>
+30:             <tr>
+31:                 <td>ContraseÃ±a:</td>
+
+
+An error occurred at line: [32] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+29:             </tr>
+30:             <tr>
+31:                 <td>ContraseÃ±a:</td>
+32:                 <td><%=us.getPass();%></td>
+33:             </tr>
+34:             <tr>
+35:                 <td>Mail:</td>
+
+
+An error occurred at line: [36] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+33:             </tr>
+34:             <tr>
+35:                 <td>Mail:</td>
+36:                 <td><%=us.getMail();%></td>
+37:             </tr>
+38:         </table>
+39:         <form method = "post" action ="index.jsp">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:482)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:692)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:439)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:366)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at controlador.LoginController.doGet(LoginController.java:128)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 00:40:49.036 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [LoginController] in context with path [/ProyectoLogin] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+21:         <table border = "1">
+22:             <tr>
+23:                 <td>Cuenta:</td>
+24:                 <td><%=us.getCuenta();%></td>
+25:             </tr>
+26:             <tr>
+27:                 <td>Nombre:</td>
+
+
+An error occurred at line: [28] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+25:             </tr>
+26:             <tr>
+27:                 <td>Nombre:</td>
+28:                 <td><%=us.getNombre();%></td>
+29:             </tr>
+30:             <tr>
+31:                 <td>ContraseÃ±a:</td>
+
+
+An error occurred at line: [32] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+29:             </tr>
+30:             <tr>
+31:                 <td>ContraseÃ±a:</td>
+32:                 <td><%=us.getPass();%></td>
+33:             </tr>
+34:             <tr>
+35:                 <td>Mail:</td>
+
+
+An error occurred at line: [36] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+33:             </tr>
+34:             <tr>
+35:                 <td>Mail:</td>
+36:                 <td><%=us.getMail();%></td>
+37:             </tr>
+38:         </table>
+39:         <form method = "post" action ="index.jsp">
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+21:         <table border = "1">
+22:             <tr>
+23:                 <td>Cuenta:</td>
+24:                 <td><%=us.getCuenta();%></td>
+25:             </tr>
+26:             <tr>
+27:                 <td>Nombre:</td>
+
+
+An error occurred at line: [28] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+25:             </tr>
+26:             <tr>
+27:                 <td>Nombre:</td>
+28:                 <td><%=us.getNombre();%></td>
+29:             </tr>
+30:             <tr>
+31:                 <td>ContraseÃ±a:</td>
+
+
+An error occurred at line: [32] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+29:             </tr>
+30:             <tr>
+31:                 <td>ContraseÃ±a:</td>
+32:                 <td><%=us.getPass();%></td>
+33:             </tr>
+34:             <tr>
+35:                 <td>Mail:</td>
+
+
+An error occurred at line: [36] in the jsp file: [/vistas/registroGuardado.jsp]
+Syntax error on token ";", delete this token
+33:             </tr>
+34:             <tr>
+35:                 <td>Mail:</td>
+36:                 <td><%=us.getMail();%></td>
+37:             </tr>
+38:         </table>
+39:         <form method = "post" action ="index.jsp">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:482)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:692)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:439)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:366)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at controlador.LoginController.doGet(LoginController.java:128)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 01:07:36.966 SEVERE [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [17] in the jsp file: [/vistas/inicioSistema.jsp]
+The method getNOMBRE() is undefined for the type Usuario
+14:     <body>
+15:         <%@ page import="modelo.Usuario"%>
+16:         <%Usuario us = (Usuario)request.getAttribute("atribUser");%>
+17:         <h1>Hola <%= us.getNOMBRE() %> bienvenido al sistema!</h1>
+18:         <form method = "get" action ="LoginController">
+19:             <input type="submit" name="accion" value="Consultar Usuarios">
+20:         </form>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:482)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:692)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:439)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:366)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at controlador.LoginController.doGet(LoginController.java:128)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 01:07:36.966 SEVERE [http-nio-8080-exec-12] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [LoginController] in context with path [/ProyectoLogin] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [17] in the jsp file: [/vistas/inicioSistema.jsp]
+The method getNOMBRE() is undefined for the type Usuario
+14:     <body>
+15:         <%@ page import="modelo.Usuario"%>
+16:         <%Usuario us = (Usuario)request.getAttribute("atribUser");%>
+17:         <h1>Hola <%= us.getNOMBRE() %> bienvenido al sistema!</h1>
+18:         <form method = "get" action ="LoginController">
+19:             <input type="submit" name="accion" value="Consultar Usuarios">
+20:         </form>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [17] in the jsp file: [/vistas/inicioSistema.jsp]
+The method getNOMBRE() is undefined for the type Usuario
+14:     <body>
+15:         <%@ page import="modelo.Usuario"%>
+16:         <%Usuario us = (Usuario)request.getAttribute("atribUser");%>
+17:         <h1>Hola <%= us.getNOMBRE() %> bienvenido al sistema!</h1>
+18:         <form method = "get" action ="LoginController">
+19:             <input type="submit" name="accion" value="Consultar Usuarios">
+20:         </form>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:482)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:692)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:439)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:366)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at controlador.LoginController.doGet(LoginController.java:128)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 01:09:53.601 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/ProyectoLogin] threw exception [java.lang.NullPointerException] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.vistas.inicioSistema_jsp._jspService(inicioSistema_jsp.java:133)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:467)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 01:12:25.406 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/ProyectoLogin] threw exception [java.lang.NullPointerException] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.vistas.inicioSistema_jsp._jspService(inicioSistema_jsp.java:133)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:467)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 01:19:14.120 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [LoginController] in context with path [/ProyectoLogin] threw exception
+	java.lang.NullPointerException
+		at controlador.LoginController.doGet(LoginController.java:93)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 01:20:30.522 SEVERE [http-nio-8080-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [LoginController] in context with path [/ProyectoLogin] threw exception
+	java.lang.NullPointerException
+		at controlador.LoginController.doGet(LoginController.java:93)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 01:20:38.408 SEVERE [http-nio-8080-exec-12] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [LoginController] in context with path [/ProyectoLogin] threw exception
+	java.lang.NullPointerException
+		at controlador.LoginController.doGet(LoginController.java:93)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 01:28:11.504 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [19] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert ";" to complete BlockStatements
+16:             boolean res = (boolean)request.getAttribute("resultadoBorrado");
+17:             String cad = "";
+18:             if(res == true){
+19:                 cad = "El registro se borrÃ³ con Ã©xito"
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+
+
+An error occurred at line: [21] in the jsp file: [/vistas/borraUsuario.jsp]
+The left-hand side of an assignment must be a variable
+18:             if(res == true){
+19:                 cad = "El registro se borrÃ³ con Ã©xito"
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             )
+24:             %>
+
+
+An error occurred at line: [23] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+26:     </body>
+
+
+An error occurred at line: [23] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert ";" to complete Statement
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+26:     </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:482)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:692)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:439)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:366)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at controlador.LoginController.doGet(LoginController.java:132)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 01:28:11.504 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [LoginController] in context with path [/ProyectoLogin] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [19] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert ";" to complete BlockStatements
+16:             boolean res = (boolean)request.getAttribute("resultadoBorrado");
+17:             String cad = "";
+18:             if(res == true){
+19:                 cad = "El registro se borrÃ³ con Ã©xito"
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+
+
+An error occurred at line: [21] in the jsp file: [/vistas/borraUsuario.jsp]
+The left-hand side of an assignment must be a variable
+18:             if(res == true){
+19:                 cad = "El registro se borrÃ³ con Ã©xito"
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             )
+24:             %>
+
+
+An error occurred at line: [23] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+26:     </body>
+
+
+An error occurred at line: [23] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert ";" to complete Statement
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+26:     </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [19] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert ";" to complete BlockStatements
+16:             boolean res = (boolean)request.getAttribute("resultadoBorrado");
+17:             String cad = "";
+18:             if(res == true){
+19:                 cad = "El registro se borrÃ³ con Ã©xito"
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+
+
+An error occurred at line: [21] in the jsp file: [/vistas/borraUsuario.jsp]
+The left-hand side of an assignment must be a variable
+18:             if(res == true){
+19:                 cad = "El registro se borrÃ³ con Ã©xito"
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             )
+24:             %>
+
+
+An error occurred at line: [23] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+26:     </body>
+
+
+An error occurred at line: [23] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert ";" to complete Statement
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+26:     </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:482)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:692)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:439)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:366)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at controlador.LoginController.doGet(LoginController.java:132)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 01:29:25.380 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/vistas/borraUsuario.jsp]
+The left-hand side of an assignment must be a variable
+18:             if(res == true){
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             );
+24:             %>
+
+
+An error occurred at line: [23] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             );
+24:             %>
+25:         <h1><%=cad%></h1>
+26:     </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:482)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:692)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:439)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:366)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at controlador.LoginController.doGet(LoginController.java:132)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 01:29:25.380 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [LoginController] in context with path [/ProyectoLogin] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/vistas/borraUsuario.jsp]
+The left-hand side of an assignment must be a variable
+18:             if(res == true){
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             );
+24:             %>
+
+
+An error occurred at line: [23] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             );
+24:             %>
+25:         <h1><%=cad%></h1>
+26:     </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/vistas/borraUsuario.jsp]
+The left-hand side of an assignment must be a variable
+18:             if(res == true){
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             );
+24:             %>
+
+
+An error occurred at line: [23] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro"
+23:             );
+24:             %>
+25:         <h1><%=cad%></h1>
+26:     </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:482)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:692)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:439)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:366)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at controlador.LoginController.doGet(LoginController.java:132)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 01:30:21.934 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/vistas/borraUsuario.jsp]
+The left-hand side of an assignment must be a variable
+18:             if(res == true){
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro";
+23:             )
+24:             %>
+
+
+An error occurred at line: [22] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert ")" to complete Expression
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro";
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+
+
+An error occurred at line: [22] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro";
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+
+
+An error occurred at line: [22] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert ";" to complete Statement
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro";
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:482)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:692)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:439)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:366)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at controlador.LoginController.doGet(LoginController.java:132)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+08-Nov-2021 01:30:21.934 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [LoginController] in context with path [/ProyectoLogin] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/vistas/borraUsuario.jsp]
+The left-hand side of an assignment must be a variable
+18:             if(res == true){
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro";
+23:             )
+24:             %>
+
+
+An error occurred at line: [22] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert ")" to complete Expression
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro";
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+
+
+An error occurred at line: [22] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro";
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+
+
+An error occurred at line: [22] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert ";" to complete Statement
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro";
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/vistas/borraUsuario.jsp]
+The left-hand side of an assignment must be a variable
+18:             if(res == true){
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro";
+23:             )
+24:             %>
+
+
+An error occurred at line: [22] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert ")" to complete Expression
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro";
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+
+
+An error occurred at line: [22] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro";
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+
+
+An error occurred at line: [22] in the jsp file: [/vistas/borraUsuario.jsp]
+Syntax error, insert ";" to complete Statement
+19:                 cad = "El registro se borrÃ³ con Ã©xito";
+20:             }
+21:             else(
+22:                 cad = "No se pudo borrar el registro";
+23:             )
+24:             %>
+25:         <h1><%=cad%></h1>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:482)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:692)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:439)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:366)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at controlador.LoginController.doGet(LoginController.java:132)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:770)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1696)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)

@@ -1,0 +1,29 @@
+25-Oct-2021 00:45:36.275 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Oct-2021 00:45:36.276 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+25-Oct-2021 00:45:36.610 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+25-Oct-2021 00:45:36.617 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\NetBeansProjects\Clase2210\build\web
+25-Oct-2021 00:45:36.741 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\NetBeansProjects\EcuacionCuadratica\build\web
+25-Oct-2021 00:45:36.741 WARNING [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Application id 'web' not found in: [manager, ejemplohomoclave-1.0-snapshot, ejercicioexamen-1.0-snapshot, dentista, prueba, login, new folder, login_verr, helloworld-1.0-snapshot, docs, karen, servlet-1.0-snapshot, root, host-manager, login4, login2]
+25-Oct-2021 00:45:36.744 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\uaemextexcocoico\EjemploHomoclave\target\EjemploHomoclave-1.0-SNAPSHOT
+25-Oct-2021 00:45:36.850 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\NetBeansProjects\EjercicioExamen\target\EjercicioExamen-1.0-SNAPSHOT
+25-Oct-2021 00:45:36.910 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\NetBeansProjects\HelloWorld\target\HelloWorld-1.0-SNAPSHOT
+25-Oct-2021 00:45:36.973 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\NetBeansProjects\Practica1JSP\build\web
+25-Oct-2021 00:45:36.973 WARNING [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Application id 'web' not found in: [manager, dentista, prueba, login, new folder, login_verr, docs, karen, servlet-1.0-snapshot, root, host-manager, login4, login2]
+25-Oct-2021 00:45:36.975 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\NetBeansProjects\Practica2JSP\build\web
+25-Oct-2021 00:45:36.975 WARNING [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Application id 'web' not found in: [manager, dentista, prueba, login, new folder, login_verr, docs, karen, servlet-1.0-snapshot, root, host-manager, login4, login2]
+25-Oct-2021 00:45:36.978 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\NetBeansProjects\Servlet\target\Servlet-1.0-SNAPSHOT
+25-Oct-2021 00:45:37.049 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Diplomado\Modulo 2\apache-tomee-plus-8.0.6\webapps\Dentista
+25-Oct-2021 00:45:37.128 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Diplomado\Modulo 2\apache-tomee-plus-8.0.6\webapps\docs
+25-Oct-2021 00:45:37.205 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Diplomado\Modulo 2\apache-tomee-plus-8.0.6\webapps\host-manager
+25-Oct-2021 00:45:37.307 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Diplomado\Modulo 2\apache-tomee-plus-8.0.6\webapps\karen
+25-Oct-2021 00:45:37.380 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Diplomado\Modulo 2\apache-tomee-plus-8.0.6\webapps\Login
+25-Oct-2021 00:45:37.440 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Diplomado\Modulo 2\apache-tomee-plus-8.0.6\webapps\Login2
+25-Oct-2021 00:45:37.517 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Diplomado\Modulo 2\apache-tomee-plus-8.0.6\webapps\Login4
+25-Oct-2021 00:45:37.581 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Diplomado\Modulo 2\apache-tomee-plus-8.0.6\webapps\Login_VERR
+25-Oct-2021 00:45:37.639 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Diplomado\Modulo 2\apache-tomee-plus-8.0.6\webapps\manager
+25-Oct-2021 00:45:37.691 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Diplomado\Modulo 2\apache-tomee-plus-8.0.6\webapps\New folder.unpacked
+25-Oct-2021 00:45:37.778 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Diplomado\Modulo 2\apache-tomee-plus-8.0.6\webapps\prueba
+25-Oct-2021 00:45:37.885 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\karen.reyes\Documents\Diplomado\Modulo 2\apache-tomee-plus-8.0.6\webapps\ROOT
+25-Oct-2021 00:45:37.961 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+25-Oct-2021 00:45:38.025 INFO [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+25-Oct-2021 00:45:38.072 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
